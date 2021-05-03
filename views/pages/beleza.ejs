@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <%- include('../partials/head', {title: '| Beleza'}) %> 
+
+<body>
+
+    <%- include('../partials/header', {beleza : '#'}) %> 
+
+    <main>
+        <span class="title">Beleza</span>
+        <hr>
+        <div class="PhoneBook">
+
+            <% contacts.forEach(contact => { %>
+                <div class="contact">
+
+                    <p> <%= contact.title %>  </p>
+                    <button>
+                        <a href=" <%= contact.link %> ">
+                            <img src="Whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </button>
+
+                </div>
+            <% }); %> 
+
+           
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %> 
+
+</body>
+</html>

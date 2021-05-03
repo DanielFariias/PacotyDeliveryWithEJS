@@ -1,0 +1,37 @@
+<header>
+    <h1>PacotyDelivery</h1>
+    <nav>
+        <ul class="scroll">
+            <li>
+                <a href=" <%= typeof saude != 'undefined' ? saude: '/' %> ">
+                    <button><img src="Farmacia.svg" alt=""></button>
+                </a>
+            </li>
+            <li>
+                <a href=" <%= typeof supermercado != 'undefined' ? supermercado: '/supermercado' %> ">
+                    <button><img src="Mercado.svg" alt=""></button>
+                </a>
+            </li>
+            <li>
+                <a href=" <%= typeof restaurante != 'undefined' ? restaurante: '/restaurante' %> ">
+                    <button><img src="Restaurante.svg" alt=""></button>
+                </a>
+            </li>
+            <li>
+                <a href=" <%= typeof moda != 'undefined' ? moda: '/moda' %> ">
+                    <button><img src="roupas.svg" alt=""></button>
+                </a>
+            </li>
+            <li>
+                <a href=" <%= typeof beleza != 'undefined' ? beleza: '/beleza' %> ">
+                    <button><img src="beleza.svg" alt=""></button>
+                </a>
+            </li>
+            <li>
+                <a href=" <%= typeof variedades != 'undefined' ? variedades: '/variedades' %> ">
+                    <button><img src="Diversos.svg" alt=""></button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>  

@@ -39,6 +39,7 @@ body header nav ul {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    padding: 0 0 3rem 0;
 }
 
 body header nav ul{
@@ -178,4 +179,3 @@ body footer .copyright {
 
     font-size: 0.7rem;
 }
-
